@@ -15,11 +15,11 @@ const sum = function(a, b) {
 const assertEqual = function(actual, expected) {
     if(actual === expected)
     {
-        console.log("✅Assertion Passed: " + actual + " === " + expected); //to add emojis: winKey + ;
+        console.log(`✅Assertion Passed: ${actual} === ${expected}`); //to add emojis: winKey + ;
     }
     else
     {
-        console.log("🚩Assertion Failed: " + actual + " !== " + expected);
+        console.log(`🚩Assertion Failed: ${actual} !== ${expected}`);
 
     }
 };
