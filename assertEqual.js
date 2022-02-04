@@ -1,12 +1,12 @@
 //console.assert 
 // FUNCTION IMPLEMENTATION
-const sum = function(a, b) { 
-    return a + b;
-  }
+// const sum = function(a, b) { 
+//     return a + b;
+//   }
   
   // TEST CODE
-  console.assert(sum(1, 2) === 3);
-  console.assert(sum(1, 20) === 3); // bad / incorrect assertion, and we see it fail!
+//   console.assert(sum(1, 2) === 3);
+//   console.assert(sum(1, 20) === 3); // bad / incorrect assertion, and we see it fail!
 
 
 
@@ -24,9 +24,7 @@ const assertEqual = function(actual, expected) {
     }
 };
 
-//test code
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual("happy", 'happy');
-assertEqual("HAPPY", "happy");
-assertEqual(12, 1 );
+
+
+
+module.exports = assertEqual;
