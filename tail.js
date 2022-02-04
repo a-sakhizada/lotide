@@ -6,5 +6,5 @@ const tail = function(arry) {
 // const result = tail(["Hello", "Lighthouse", "Labs"]);
 // assertEqual(result, ["Lighthouse", "Labs"]); // => will always fail!
 
-
+//console.log(tail(["Hello", "Lighthouse", "Labs"]));
 module.exports = tail;
